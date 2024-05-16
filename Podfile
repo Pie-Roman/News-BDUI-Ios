@@ -10,4 +10,6 @@ end
 target 'News' do
   project 'News.xcodeproj'
   platform :ios, '13.0'
+  
+  local_pod 'CommonCoreDi'
 end

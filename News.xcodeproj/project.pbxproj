@@ -12,6 +12,7 @@
 		CC449CD52BF6CAE800DBAD6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC449CD42BF6CAE800DBAD6F /* SceneDelegate.swift */; };
 		CC449CD72BF6CAE800DBAD6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC449CD62BF6CAE800DBAD6F /* ViewController.swift */; };
 		CC449CDC2BF6CAEA00DBAD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC449CDB2BF6CAEA00DBAD6F /* Assets.xcassets */; };
+		CC449CEC2BF6CFC100DBAD6F /* CommonCoreDi.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC449CEB2BF6CFC100DBAD6F /* CommonCoreDi.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC449CD62BF6CAE800DBAD6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC449CDB2BF6CAEA00DBAD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC449CE02BF6CAEA00DBAD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC449CEB2BF6CFC100DBAD6F /* CommonCoreDi.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonCoreDi.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,6 @@
 				22D0C577856C62D0508A6584 /* Pods-News.debug.xcconfig */,
 				7A2A3037599CDF34D5F27F24 /* Pods-News.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -59,6 +60,7 @@
 		CC449CC62BF6CAE800DBAD6F = {
 			isa = PBXGroup;
 			children = (
+				CC449CE62BF6CF1500DBAD6F /* Modules */,
 				CC449CD12BF6CAE800DBAD6F /* News */,
 				CC449CD02BF6CAE800DBAD6F /* Products */,
 				75C5BB2CDB34595EE5137911 /* Pods */,
@@ -86,6 +88,30 @@
 			path = News;
 			sourceTree = "<group>";
 		};
+		CC449CE62BF6CF1500DBAD6F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CC449CE72BF6CF2C00DBAD6F /* CommonCoreDi */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CC449CE72BF6CF2C00DBAD6F /* CommonCoreDi */ = {
+			isa = PBXGroup;
+			children = (
+				CC449CED2BF6CFC700DBAD6F /* Sources */,
+				CC449CEB2BF6CFC100DBAD6F /* CommonCoreDi.podspec */,
+			);
+			path = CommonCoreDi;
+			sourceTree = "<group>";
+		};
+		CC449CED2BF6CFC700DBAD6F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +123,7 @@
 				CC449CCB2BF6CAE800DBAD6F /* Sources */,
 				CC449CCC2BF6CAE800DBAD6F /* Frameworks */,
 				CC449CCD2BF6CAE800DBAD6F /* Resources */,
+				51A1BF12FE186DB421365724 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC449CDC2BF6CAEA00DBAD6F /* Assets.xcassets in Resources */,
+				CC449CEC2BF6CFC100DBAD6F /* CommonCoreDi.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +200,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A1BF12FE186DB421365724 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-News/Pods-News-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-News/Pods-News-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-News/Pods-News-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
