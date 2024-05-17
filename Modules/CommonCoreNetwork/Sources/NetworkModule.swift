@@ -6,8 +6,5 @@ public class NetworkModule {
         Inject.shared.provide {_ in
             HttpClient()
         }
-    }
-    
-    public static let shared = NetworkModule()
-    
+    }    
 }

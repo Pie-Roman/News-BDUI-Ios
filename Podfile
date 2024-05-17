@@ -15,4 +15,6 @@ target 'News' do
   local_pod 'CommonCoreNetwork'
   
   local_pod 'BaseUiKit'
+  
+  local_pod 'DivkitDomain'
 end
