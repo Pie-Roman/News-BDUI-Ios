@@ -16,6 +16,9 @@ target 'News' do
   
   local_pod 'BaseUiKit'
   
+  # feature modules
+  local_pod 'DivkitFeature'
+  
   # domain modules
   local_pod 'DivkitDomain'
   

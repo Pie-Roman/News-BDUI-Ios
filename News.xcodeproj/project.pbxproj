@@ -17,6 +17,14 @@
 		CC6A75712BF7BB44004ABDF2 /* PatchDataDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75702BF7BB44004ABDF2 /* PatchDataDto.swift */; };
 		CC6A75732BF7C818004ABDF2 /* DivkitRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75722BF7C818004ABDF2 /* DivkitRepositoryImpl.swift */; };
 		CC6A75772BF7C96B004ABDF2 /* DivkitDataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75762BF7C96B004ABDF2 /* DivkitDataModule.swift */; };
+		CC6A757A2BF7FBEF004ABDF2 /* DivkitFeature.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC6A75792BF7FBEF004ABDF2 /* DivkitFeature.podspec */; };
+		CC6A75D92BF7FCB9004ABDF2 /* DivkitViewArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75D82BF7FCB9004ABDF2 /* DivkitViewArgs.swift */; };
+		CC6A75DB2BF7FD12004ABDF2 /* DivDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75DA2BF7FD12004ABDF2 /* DivDataParser.swift */; };
+		CC6A75DD2BF7FD35004ABDF2 /* DivKitComponentsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75DC2BF7FD35004ABDF2 /* DivKitComponentsFactory.swift */; };
+		CC6A75DF2BF7FD4E004ABDF2 /* DivPatchProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75DE2BF7FD4E004ABDF2 /* DivPatchProviderImpl.swift */; };
+		CC6A75E52BF7FF91004ABDF2 /* DivkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75E42BF7FF91004ABDF2 /* DivkitViewController.swift */; };
+		CC6A76472BF7FFD4004ABDF2 /* DivkitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A76462BF7FFD4004ABDF2 /* DivkitPresenter.swift */; };
+		CC6A76492BF8003B004ABDF2 /* BaseMvpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A76482BF8003B004ABDF2 /* BaseMvpPresenter.swift */; };
 		CCCCF3822BF6D0A60060F8AC /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3812BF6D0A60060F8AC /* Inject.swift */; };
 		CCCCF3862BF6D3D80060F8AC /* CommonCoreNetwork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */; };
 		CCCCF3882BF6D5630060F8AC /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3872BF6D5630060F8AC /* HttpClient.swift */; };
@@ -58,6 +66,14 @@
 		CC6A75702BF7BB44004ABDF2 /* PatchDataDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDataDto.swift; sourceTree = "<group>"; };
 		CC6A75722BF7C818004ABDF2 /* DivkitRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitRepositoryImpl.swift; sourceTree = "<group>"; };
 		CC6A75762BF7C96B004ABDF2 /* DivkitDataModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitDataModule.swift; sourceTree = "<group>"; };
+		CC6A75792BF7FBEF004ABDF2 /* DivkitFeature.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DivkitFeature.podspec; sourceTree = "<group>"; };
+		CC6A75D82BF7FCB9004ABDF2 /* DivkitViewArgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitViewArgs.swift; sourceTree = "<group>"; };
+		CC6A75DA2BF7FD12004ABDF2 /* DivDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivDataParser.swift; sourceTree = "<group>"; };
+		CC6A75DC2BF7FD35004ABDF2 /* DivKitComponentsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivKitComponentsFactory.swift; sourceTree = "<group>"; };
+		CC6A75DE2BF7FD4E004ABDF2 /* DivPatchProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivPatchProviderImpl.swift; sourceTree = "<group>"; };
+		CC6A75E42BF7FF91004ABDF2 /* DivkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitViewController.swift; sourceTree = "<group>"; };
+		CC6A76462BF7FFD4004ABDF2 /* DivkitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitPresenter.swift; sourceTree = "<group>"; };
+		CC6A76482BF8003B004ABDF2 /* BaseMvpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMvpPresenter.swift; sourceTree = "<group>"; };
 		CCCCF3812BF6D0A60060F8AC /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
 		CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonCoreNetwork.podspec; sourceTree = "<group>"; };
 		CCCCF3872BF6D5630060F8AC /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
@@ -147,6 +163,7 @@
 		CC449CE62BF6CF1500DBAD6F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CC6A75782BF7FA2B004ABDF2 /* DivkitFeature */,
 				CCCCF3E42BF6E4120060F8AC /* DivkitData */,
 				CCCCF3B82BF6E1580060F8AC /* DivkitDomain */,
 				CCCCF3952BF6D9410060F8AC /* BaseUiKit */,
@@ -169,6 +186,28 @@
 			isa = PBXGroup;
 			children = (
 				CCCCF3812BF6D0A60060F8AC /* Inject.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CC6A75782BF7FA2B004ABDF2 /* DivkitFeature */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A757B2BF7FBF3004ABDF2 /* Sources */,
+				CC6A75792BF7FBEF004ABDF2 /* DivkitFeature.podspec */,
+			);
+			path = DivkitFeature;
+			sourceTree = "<group>";
+		};
+		CC6A757B2BF7FBF3004ABDF2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A75D82BF7FCB9004ABDF2 /* DivkitViewArgs.swift */,
+				CC6A75DA2BF7FD12004ABDF2 /* DivDataParser.swift */,
+				CC6A75DC2BF7FD35004ABDF2 /* DivKitComponentsFactory.swift */,
+				CC6A75DE2BF7FD4E004ABDF2 /* DivPatchProviderImpl.swift */,
+				CC6A75E42BF7FF91004ABDF2 /* DivkitViewController.swift */,
+				CC6A76462BF7FFD4004ABDF2 /* DivkitPresenter.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -209,6 +248,7 @@
 				CCCCF39D2BF6DA5D0060F8AC /* MvpPresenter.swift */,
 				CCCCF39F2BF6DE560060F8AC /* MvpViewController.swift */,
 				CCCCF3A12BF6DFB70060F8AC /* MvpUIView.swift */,
+				CC6A76482BF8003B004ABDF2 /* BaseMvpPresenter.swift */,
 			);
 			path = Mvp;
 			sourceTree = "<group>";
@@ -331,6 +371,7 @@
 				CC449CDC2BF6CAEA00DBAD6F /* Assets.xcassets in Resources */,
 				CCCCF3BA2BF6E1A70060F8AC /* DivkitDomain.podspec in Resources */,
 				CC449CEC2BF6CFC100DBAD6F /* CommonCoreDi.podspec in Resources */,
+				CC6A757A2BF7FBEF004ABDF2 /* DivkitFeature.podspec in Resources */,
 				CCCCF3972BF6D9C00060F8AC /* BaseUiKit.podspec in Resources */,
 				CCCCF3862BF6D3D80060F8AC /* CommonCoreNetwork.podspec in Resources */,
 				CCCCF3E62BF6E44C0060F8AC /* DivkitData.podspec in Resources */,
@@ -399,20 +440,27 @@
 				CCCCF3822BF6D0A60060F8AC /* Inject.swift in Sources */,
 				CCCCF3A22BF6DFB70060F8AC /* MvpUIView.swift in Sources */,
 				CCCCF38A2BF6D5A20060F8AC /* NetworkModule.swift in Sources */,
+				CC6A75DB2BF7FD12004ABDF2 /* DivDataParser.swift in Sources */,
 				CCCCF39E2BF6DA5D0060F8AC /* MvpPresenter.swift in Sources */,
+				CC6A75D92BF7FCB9004ABDF2 /* DivkitViewArgs.swift in Sources */,
 				CC449CD72BF6CAE800DBAD6F /* ViewController.swift in Sources */,
+				CC6A75DF2BF7FD4E004ABDF2 /* DivPatchProviderImpl.swift in Sources */,
 				CCCCF3A02BF6DE560060F8AC /* MvpViewController.swift in Sources */,
 				CC449CD32BF6CAE800DBAD6F /* AppDelegate.swift in Sources */,
+				CC6A75DD2BF7FD35004ABDF2 /* DivKitComponentsFactory.swift in Sources */,
 				CCCCF39C2BF6DA170060F8AC /* MvpView.swift in Sources */,
 				CCCCF3FF2BF6E4960060F8AC /* DivkitHttpClient.swift in Sources */,
 				CCCCF3C72BF6E2AA0060F8AC /* GetViewPatchDataUseCase.swift in Sources */,
+				CC6A76472BF7FFD4004ABDF2 /* DivkitPresenter.swift in Sources */,
 				CCCCF41B2BF6E5CD0060F8AC /* DivkitHttpClientConfigProvider.swift in Sources */,
 				CC449CD52BF6CAE800DBAD6F /* SceneDelegate.swift in Sources */,
 				CCCCF3C12BF6E1EF0060F8AC /* ViewData.swift in Sources */,
 				CC6A75772BF7C96B004ABDF2 /* DivkitDataModule.swift in Sources */,
 				CCCCF41D2BF6E9850060F8AC /* DivkitNetworkDataSource.swift in Sources */,
 				CC6A75732BF7C818004ABDF2 /* DivkitRepositoryImpl.swift in Sources */,
+				CC6A76492BF8003B004ABDF2 /* BaseMvpPresenter.swift in Sources */,
 				CCCCF3A52BF6E0250060F8AC /* UIColorUtils.swift in Sources */,
+				CC6A75E52BF7FF91004ABDF2 /* DivkitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
