@@ -4,18 +4,8 @@ public class HttpClient {
     
     private let session = URLSession.shared
     
-    func sendRequest(to url: URL, params: [String: String]?, completion: @escaping (Data?) -> Void) async {
-        return await Task {
-            let task = session.dataTask(with: url) { data, response, error in
-                if let data = data {
-                    completion(data)
-                } else {
-                    print("Could not get any content")
-                    completion(nil)
-                }
-            }
-
-            task.resume()
-        }.value
+    func sendRequest(to url: URL) async -> Data? {
+        let urlRequest = URLRequest(url: url)
+        return try? await session.data(for: urlRequest).0
     }
 }

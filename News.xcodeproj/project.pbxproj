@@ -13,6 +13,10 @@
 		CC449CD72BF6CAE800DBAD6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC449CD62BF6CAE800DBAD6F /* ViewController.swift */; };
 		CC449CDC2BF6CAEA00DBAD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC449CDB2BF6CAEA00DBAD6F /* Assets.xcassets */; };
 		CC449CEC2BF6CFC100DBAD6F /* CommonCoreDi.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC449CEB2BF6CFC100DBAD6F /* CommonCoreDi.podspec */; };
+		CC6A756F2BF7BA8F004ABDF2 /* ViewDataDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A756E2BF7BA8F004ABDF2 /* ViewDataDto.swift */; };
+		CC6A75712BF7BB44004ABDF2 /* PatchDataDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75702BF7BB44004ABDF2 /* PatchDataDto.swift */; };
+		CC6A75732BF7C818004ABDF2 /* DivkitRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75722BF7C818004ABDF2 /* DivkitRepositoryImpl.swift */; };
+		CC6A75772BF7C96B004ABDF2 /* DivkitDataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A75762BF7C96B004ABDF2 /* DivkitDataModule.swift */; };
 		CCCCF3822BF6D0A60060F8AC /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3812BF6D0A60060F8AC /* Inject.swift */; };
 		CCCCF3862BF6D3D80060F8AC /* CommonCoreNetwork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */; };
 		CCCCF3882BF6D5630060F8AC /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3872BF6D5630060F8AC /* HttpClient.swift */; };
@@ -25,6 +29,18 @@
 		CCCCF3A22BF6DFB70060F8AC /* MvpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3A12BF6DFB70060F8AC /* MvpUIView.swift */; };
 		CCCCF3A52BF6E0250060F8AC /* UIColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3A42BF6E0250060F8AC /* UIColorUtils.swift */; };
 		CCCCF3A72BF6E0360060F8AC /* UIViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3A62BF6E0360060F8AC /* UIViewUtils.swift */; };
+		CCCCF3BA2BF6E1A70060F8AC /* DivkitDomain.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF3B92BF6E1A70060F8AC /* DivkitDomain.podspec */; };
+		CCCCF3BD2BF6E1CC0060F8AC /* DivkitDomainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3BC2BF6E1CC0060F8AC /* DivkitDomainModule.swift */; };
+		CCCCF3BF2BF6E1D40060F8AC /* DivkitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3BE2BF6E1D40060F8AC /* DivkitRepository.swift */; };
+		CCCCF3C12BF6E1EF0060F8AC /* ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3C02BF6E1EF0060F8AC /* ViewData.swift */; };
+		CCCCF3C32BF6E2130060F8AC /* ViewPatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3C22BF6E2130060F8AC /* ViewPatchData.swift */; };
+		CCCCF3C52BF6E2610060F8AC /* GetViewDataUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3C42BF6E2610060F8AC /* GetViewDataUseCase.swift */; };
+		CCCCF3C72BF6E2AA0060F8AC /* GetViewPatchDataUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3C62BF6E2AA0060F8AC /* GetViewPatchDataUseCase.swift */; };
+		CCCCF3E62BF6E44C0060F8AC /* DivkitData.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF3E52BF6E44C0060F8AC /* DivkitData.podspec */; };
+		CCCCF3FF2BF6E4960060F8AC /* DivkitHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3FE2BF6E4960060F8AC /* DivkitHttpClient.swift */; };
+		CCCCF4192BF6E5B80060F8AC /* DivkitHttpClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF4182BF6E5B80060F8AC /* DivkitHttpClientConfig.swift */; };
+		CCCCF41B2BF6E5CD0060F8AC /* DivkitHttpClientConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF41A2BF6E5CD0060F8AC /* DivkitHttpClientConfigProvider.swift */; };
+		CCCCF41D2BF6E9850060F8AC /* DivkitNetworkDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF41C2BF6E9850060F8AC /* DivkitNetworkDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +54,10 @@
 		CC449CDB2BF6CAEA00DBAD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC449CE02BF6CAEA00DBAD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC449CEB2BF6CFC100DBAD6F /* CommonCoreDi.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonCoreDi.podspec; sourceTree = "<group>"; };
+		CC6A756E2BF7BA8F004ABDF2 /* ViewDataDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDataDto.swift; sourceTree = "<group>"; };
+		CC6A75702BF7BB44004ABDF2 /* PatchDataDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDataDto.swift; sourceTree = "<group>"; };
+		CC6A75722BF7C818004ABDF2 /* DivkitRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitRepositoryImpl.swift; sourceTree = "<group>"; };
+		CC6A75762BF7C96B004ABDF2 /* DivkitDataModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitDataModule.swift; sourceTree = "<group>"; };
 		CCCCF3812BF6D0A60060F8AC /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
 		CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonCoreNetwork.podspec; sourceTree = "<group>"; };
 		CCCCF3872BF6D5630060F8AC /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
@@ -50,6 +70,18 @@
 		CCCCF3A12BF6DFB70060F8AC /* MvpUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvpUIView.swift; sourceTree = "<group>"; };
 		CCCCF3A42BF6E0250060F8AC /* UIColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorUtils.swift; sourceTree = "<group>"; };
 		CCCCF3A62BF6E0360060F8AC /* UIViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewUtils.swift; sourceTree = "<group>"; };
+		CCCCF3B92BF6E1A70060F8AC /* DivkitDomain.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DivkitDomain.podspec; sourceTree = "<group>"; };
+		CCCCF3BC2BF6E1CC0060F8AC /* DivkitDomainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitDomainModule.swift; sourceTree = "<group>"; };
+		CCCCF3BE2BF6E1D40060F8AC /* DivkitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitRepository.swift; sourceTree = "<group>"; };
+		CCCCF3C02BF6E1EF0060F8AC /* ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewData.swift; sourceTree = "<group>"; };
+		CCCCF3C22BF6E2130060F8AC /* ViewPatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPatchData.swift; sourceTree = "<group>"; };
+		CCCCF3C42BF6E2610060F8AC /* GetViewDataUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewDataUseCase.swift; sourceTree = "<group>"; };
+		CCCCF3C62BF6E2AA0060F8AC /* GetViewPatchDataUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewPatchDataUseCase.swift; sourceTree = "<group>"; };
+		CCCCF3E52BF6E44C0060F8AC /* DivkitData.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DivkitData.podspec; sourceTree = "<group>"; };
+		CCCCF3FE2BF6E4960060F8AC /* DivkitHttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitHttpClient.swift; sourceTree = "<group>"; };
+		CCCCF4182BF6E5B80060F8AC /* DivkitHttpClientConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitHttpClientConfig.swift; sourceTree = "<group>"; };
+		CCCCF41A2BF6E5CD0060F8AC /* DivkitHttpClientConfigProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitHttpClientConfigProvider.swift; sourceTree = "<group>"; };
+		CCCCF41C2BF6E9850060F8AC /* DivkitNetworkDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivkitNetworkDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +147,8 @@
 		CC449CE62BF6CF1500DBAD6F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CCCCF3E42BF6E4120060F8AC /* DivkitData */,
+				CCCCF3B82BF6E1580060F8AC /* DivkitDomain */,
 				CCCCF3952BF6D9410060F8AC /* BaseUiKit */,
 				CCCCF3852BF6D3D80060F8AC /* CommonCoreNetwork */,
 				CC449CE72BF6CF2C00DBAD6F /* CommonCoreDi */,
@@ -188,6 +222,52 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		CCCCF3B82BF6E1580060F8AC /* DivkitDomain */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3BB2BF6E1AA0060F8AC /* Sources */,
+				CCCCF3B92BF6E1A70060F8AC /* DivkitDomain.podspec */,
+			);
+			path = DivkitDomain;
+			sourceTree = "<group>";
+		};
+		CCCCF3BB2BF6E1AA0060F8AC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3BC2BF6E1CC0060F8AC /* DivkitDomainModule.swift */,
+				CCCCF3BE2BF6E1D40060F8AC /* DivkitRepository.swift */,
+				CCCCF3C02BF6E1EF0060F8AC /* ViewData.swift */,
+				CCCCF3C22BF6E2130060F8AC /* ViewPatchData.swift */,
+				CCCCF3C42BF6E2610060F8AC /* GetViewDataUseCase.swift */,
+				CCCCF3C62BF6E2AA0060F8AC /* GetViewPatchDataUseCase.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CCCCF3E42BF6E4120060F8AC /* DivkitData */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3E72BF6E4500060F8AC /* Sources */,
+				CCCCF3E52BF6E44C0060F8AC /* DivkitData.podspec */,
+			);
+			path = DivkitData;
+			sourceTree = "<group>";
+		};
+		CCCCF3E72BF6E4500060F8AC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3FE2BF6E4960060F8AC /* DivkitHttpClient.swift */,
+				CCCCF4182BF6E5B80060F8AC /* DivkitHttpClientConfig.swift */,
+				CCCCF41A2BF6E5CD0060F8AC /* DivkitHttpClientConfigProvider.swift */,
+				CCCCF41C2BF6E9850060F8AC /* DivkitNetworkDataSource.swift */,
+				CC6A756E2BF7BA8F004ABDF2 /* ViewDataDto.swift */,
+				CC6A75702BF7BB44004ABDF2 /* PatchDataDto.swift */,
+				CC6A75722BF7C818004ABDF2 /* DivkitRepositoryImpl.swift */,
+				CC6A75762BF7C96B004ABDF2 /* DivkitDataModule.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,9 +329,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC449CDC2BF6CAEA00DBAD6F /* Assets.xcassets in Resources */,
+				CCCCF3BA2BF6E1A70060F8AC /* DivkitDomain.podspec in Resources */,
 				CC449CEC2BF6CFC100DBAD6F /* CommonCoreDi.podspec in Resources */,
 				CCCCF3972BF6D9C00060F8AC /* BaseUiKit.podspec in Resources */,
 				CCCCF3862BF6D3D80060F8AC /* CommonCoreNetwork.podspec in Resources */,
+				CCCCF3E62BF6E44C0060F8AC /* DivkitData.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,9 +386,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCCF3BF2BF6E1D40060F8AC /* DivkitRepository.swift in Sources */,
+				CCCCF4192BF6E5B80060F8AC /* DivkitHttpClientConfig.swift in Sources */,
+				CCCCF3C52BF6E2610060F8AC /* GetViewDataUseCase.swift in Sources */,
+				CCCCF3BD2BF6E1CC0060F8AC /* DivkitDomainModule.swift in Sources */,
+				CC6A75712BF7BB44004ABDF2 /* PatchDataDto.swift in Sources */,
 				CCCCF39A2BF6D9CF0060F8AC /* MvpDelegate.swift in Sources */,
 				CCCCF3A72BF6E0360060F8AC /* UIViewUtils.swift in Sources */,
+				CCCCF3C32BF6E2130060F8AC /* ViewPatchData.swift in Sources */,
 				CCCCF3882BF6D5630060F8AC /* HttpClient.swift in Sources */,
+				CC6A756F2BF7BA8F004ABDF2 /* ViewDataDto.swift in Sources */,
 				CCCCF3822BF6D0A60060F8AC /* Inject.swift in Sources */,
 				CCCCF3A22BF6DFB70060F8AC /* MvpUIView.swift in Sources */,
 				CCCCF38A2BF6D5A20060F8AC /* NetworkModule.swift in Sources */,
@@ -315,7 +404,14 @@
 				CCCCF3A02BF6DE560060F8AC /* MvpViewController.swift in Sources */,
 				CC449CD32BF6CAE800DBAD6F /* AppDelegate.swift in Sources */,
 				CCCCF39C2BF6DA170060F8AC /* MvpView.swift in Sources */,
+				CCCCF3FF2BF6E4960060F8AC /* DivkitHttpClient.swift in Sources */,
+				CCCCF3C72BF6E2AA0060F8AC /* GetViewPatchDataUseCase.swift in Sources */,
+				CCCCF41B2BF6E5CD0060F8AC /* DivkitHttpClientConfigProvider.swift in Sources */,
 				CC449CD52BF6CAE800DBAD6F /* SceneDelegate.swift in Sources */,
+				CCCCF3C12BF6E1EF0060F8AC /* ViewData.swift in Sources */,
+				CC6A75772BF7C96B004ABDF2 /* DivkitDataModule.swift in Sources */,
+				CCCCF41D2BF6E9850060F8AC /* DivkitNetworkDataSource.swift in Sources */,
+				CC6A75732BF7C818004ABDF2 /* DivkitRepositoryImpl.swift in Sources */,
 				CCCCF3A52BF6E0250060F8AC /* UIColorUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

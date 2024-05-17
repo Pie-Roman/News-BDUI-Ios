@@ -4,12 +4,20 @@ PODS:
     - Swinject
   - CommonCoreNetwork (1.0):
     - CommonCoreDi
+  - DivkitData (1.0):
+    - CommonCoreDi
+    - CommonCoreNetwork
+    - DivkitDomain
+  - DivkitDomain (1.0):
+    - CommonCoreDi
   - Swinject (2.8.8)
 
 DEPENDENCIES:
   - BaseUiKit (from `./Modules/BaseUiKit`)
   - CommonCoreDi (from `./Modules/CommonCoreDi`)
   - CommonCoreNetwork (from `./Modules/CommonCoreNetwork`)
+  - DivkitData (from `./Modules/DivkitData`)
+  - DivkitDomain (from `./Modules/DivkitDomain`)
 
 SPEC REPOS:
   trunk:
@@ -22,13 +30,19 @@ EXTERNAL SOURCES:
     :path: "./Modules/CommonCoreDi"
   CommonCoreNetwork:
     :path: "./Modules/CommonCoreNetwork"
+  DivkitData:
+    :path: "./Modules/DivkitData"
+  DivkitDomain:
+    :path: "./Modules/DivkitDomain"
 
 SPEC CHECKSUMS:
   BaseUiKit: e8493dcf18172279038e03668cf3e6165f463cc9
   CommonCoreDi: 506b790d369bd1309922c5499a7dbf14f6ae5286
   CommonCoreNetwork: 3fdba1549b3f4cd5b0d1bc5452cc1cae5e496a56
+  DivkitData: a2087d40b40655638f7ea1813fdf472f21be42ff
+  DivkitDomain: 6bea349b749761a94ffed0cb253e4dfcbb17735e
   Swinject: 2943463cdd58b49f114213bf1ce4a09f374828e7
 
-PODFILE CHECKSUM: 9004477af4d621bff035b50cdfb2a4ca33884dba
+PODFILE CHECKSUM: 5b33df1ff914a9abc3fec0ea54b8c138abc53458
 
 COCOAPODS: 1.11.3
