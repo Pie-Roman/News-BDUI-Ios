@@ -17,6 +17,14 @@
 		CCCCF3862BF6D3D80060F8AC /* CommonCoreNetwork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */; };
 		CCCCF3882BF6D5630060F8AC /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3872BF6D5630060F8AC /* HttpClient.swift */; };
 		CCCCF38A2BF6D5A20060F8AC /* NetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3892BF6D5A20060F8AC /* NetworkModule.swift */; };
+		CCCCF3972BF6D9C00060F8AC /* BaseUiKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF3962BF6D9C00060F8AC /* BaseUiKit.podspec */; };
+		CCCCF39A2BF6D9CF0060F8AC /* MvpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3992BF6D9CF0060F8AC /* MvpDelegate.swift */; };
+		CCCCF39C2BF6DA170060F8AC /* MvpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF39B2BF6DA170060F8AC /* MvpView.swift */; };
+		CCCCF39E2BF6DA5D0060F8AC /* MvpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF39D2BF6DA5D0060F8AC /* MvpPresenter.swift */; };
+		CCCCF3A02BF6DE560060F8AC /* MvpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF39F2BF6DE560060F8AC /* MvpViewController.swift */; };
+		CCCCF3A22BF6DFB70060F8AC /* MvpUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3A12BF6DFB70060F8AC /* MvpUIView.swift */; };
+		CCCCF3A52BF6E0250060F8AC /* UIColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3A42BF6E0250060F8AC /* UIColorUtils.swift */; };
+		CCCCF3A72BF6E0360060F8AC /* UIViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3A62BF6E0360060F8AC /* UIViewUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +42,14 @@
 		CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonCoreNetwork.podspec; sourceTree = "<group>"; };
 		CCCCF3872BF6D5630060F8AC /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		CCCCF3892BF6D5A20060F8AC /* NetworkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModule.swift; sourceTree = "<group>"; };
+		CCCCF3962BF6D9C00060F8AC /* BaseUiKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseUiKit.podspec; sourceTree = "<group>"; };
+		CCCCF3992BF6D9CF0060F8AC /* MvpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvpDelegate.swift; sourceTree = "<group>"; };
+		CCCCF39B2BF6DA170060F8AC /* MvpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvpView.swift; sourceTree = "<group>"; };
+		CCCCF39D2BF6DA5D0060F8AC /* MvpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvpPresenter.swift; sourceTree = "<group>"; };
+		CCCCF39F2BF6DE560060F8AC /* MvpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvpViewController.swift; sourceTree = "<group>"; };
+		CCCCF3A12BF6DFB70060F8AC /* MvpUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvpUIView.swift; sourceTree = "<group>"; };
+		CCCCF3A42BF6E0250060F8AC /* UIColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorUtils.swift; sourceTree = "<group>"; };
+		CCCCF3A62BF6E0360060F8AC /* UIViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		CC449CE62BF6CF1500DBAD6F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CCCCF3952BF6D9410060F8AC /* BaseUiKit */,
 				CCCCF3852BF6D3D80060F8AC /* CommonCoreNetwork */,
 				CC449CE72BF6CF2C00DBAD6F /* CommonCoreDi */,
 			);
@@ -138,6 +155,37 @@
 				CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */,
 			);
 			path = CommonCoreNetwork;
+			sourceTree = "<group>";
+		};
+		CCCCF3952BF6D9410060F8AC /* BaseUiKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3A32BF6E0120060F8AC /* Utils */,
+				CCCCF3982BF6D9C30060F8AC /* Mvp */,
+				CCCCF3962BF6D9C00060F8AC /* BaseUiKit.podspec */,
+			);
+			path = BaseUiKit;
+			sourceTree = "<group>";
+		};
+		CCCCF3982BF6D9C30060F8AC /* Mvp */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3992BF6D9CF0060F8AC /* MvpDelegate.swift */,
+				CCCCF39B2BF6DA170060F8AC /* MvpView.swift */,
+				CCCCF39D2BF6DA5D0060F8AC /* MvpPresenter.swift */,
+				CCCCF39F2BF6DE560060F8AC /* MvpViewController.swift */,
+				CCCCF3A12BF6DFB70060F8AC /* MvpUIView.swift */,
+			);
+			path = Mvp;
+			sourceTree = "<group>";
+		};
+		CCCCF3A32BF6E0120060F8AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3A42BF6E0250060F8AC /* UIColorUtils.swift */,
+				CCCCF3A62BF6E0360060F8AC /* UIViewUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +250,7 @@
 			files = (
 				CC449CDC2BF6CAEA00DBAD6F /* Assets.xcassets in Resources */,
 				CC449CEC2BF6CFC100DBAD6F /* CommonCoreDi.podspec in Resources */,
+				CCCCF3972BF6D9C00060F8AC /* BaseUiKit.podspec in Resources */,
 				CCCCF3862BF6D3D80060F8AC /* CommonCoreNetwork.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,12 +304,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCCF39A2BF6D9CF0060F8AC /* MvpDelegate.swift in Sources */,
+				CCCCF3A72BF6E0360060F8AC /* UIViewUtils.swift in Sources */,
 				CCCCF3882BF6D5630060F8AC /* HttpClient.swift in Sources */,
 				CCCCF3822BF6D0A60060F8AC /* Inject.swift in Sources */,
+				CCCCF3A22BF6DFB70060F8AC /* MvpUIView.swift in Sources */,
 				CCCCF38A2BF6D5A20060F8AC /* NetworkModule.swift in Sources */,
+				CCCCF39E2BF6DA5D0060F8AC /* MvpPresenter.swift in Sources */,
 				CC449CD72BF6CAE800DBAD6F /* ViewController.swift in Sources */,
+				CCCCF3A02BF6DE560060F8AC /* MvpViewController.swift in Sources */,
 				CC449CD32BF6CAE800DBAD6F /* AppDelegate.swift in Sources */,
+				CCCCF39C2BF6DA170060F8AC /* MvpView.swift in Sources */,
 				CC449CD52BF6CAE800DBAD6F /* SceneDelegate.swift in Sources */,
+				CCCCF3A52BF6E0250060F8AC /* UIColorUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

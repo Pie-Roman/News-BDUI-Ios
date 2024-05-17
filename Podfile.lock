@@ -1,23 +1,34 @@
 PODS:
+  - BaseUiKit (1.0)
   - CommonCoreDi (1.0):
     - Swinject
+  - CommonCoreNetwork (1.0):
+    - CommonCoreDi
   - Swinject (2.8.8)
 
 DEPENDENCIES:
+  - BaseUiKit (from `./Modules/BaseUiKit`)
   - CommonCoreDi (from `./Modules/CommonCoreDi`)
+  - CommonCoreNetwork (from `./Modules/CommonCoreNetwork`)
 
 SPEC REPOS:
   trunk:
     - Swinject
 
 EXTERNAL SOURCES:
+  BaseUiKit:
+    :path: "./Modules/BaseUiKit"
   CommonCoreDi:
     :path: "./Modules/CommonCoreDi"
+  CommonCoreNetwork:
+    :path: "./Modules/CommonCoreNetwork"
 
 SPEC CHECKSUMS:
-  CommonCoreDi: 59c3c2926c5fbb5f6824cd54830004f12e387ed2
+  BaseUiKit: e8493dcf18172279038e03668cf3e6165f463cc9
+  CommonCoreDi: 506b790d369bd1309922c5499a7dbf14f6ae5286
+  CommonCoreNetwork: 3fdba1549b3f4cd5b0d1bc5452cc1cae5e496a56
   Swinject: 2943463cdd58b49f114213bf1ce4a09f374828e7
 
-PODFILE CHECKSUM: 4d25ffde4825cc1bc67733f5ec288795af0e8b48
+PODFILE CHECKSUM: 9004477af4d621bff035b50cdfb2a4ca33884dba
 
 COCOAPODS: 1.11.3
