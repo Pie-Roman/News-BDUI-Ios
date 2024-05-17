@@ -1,3 +1,23 @@
-PODFILE CHECKSUM: a9661130cb5ad70f32223b5b1032518f8b4eb9fb
+PODS:
+  - CommonCoreDi (1.0):
+    - Swinject
+  - Swinject (2.8.8)
+
+DEPENDENCIES:
+  - CommonCoreDi (from `./Modules/CommonCoreDi`)
+
+SPEC REPOS:
+  trunk:
+    - Swinject
+
+EXTERNAL SOURCES:
+  CommonCoreDi:
+    :path: "./Modules/CommonCoreDi"
+
+SPEC CHECKSUMS:
+  CommonCoreDi: 59c3c2926c5fbb5f6824cd54830004f12e387ed2
+  Swinject: 2943463cdd58b49f114213bf1ce4a09f374828e7
+
+PODFILE CHECKSUM: 4d25ffde4825cc1bc67733f5ec288795af0e8b48
 
 COCOAPODS: 1.11.3
