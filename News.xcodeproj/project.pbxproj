@@ -14,6 +14,9 @@
 		CC449CDC2BF6CAEA00DBAD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC449CDB2BF6CAEA00DBAD6F /* Assets.xcassets */; };
 		CC449CEC2BF6CFC100DBAD6F /* CommonCoreDi.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC449CEB2BF6CFC100DBAD6F /* CommonCoreDi.podspec */; };
 		CCCCF3822BF6D0A60060F8AC /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3812BF6D0A60060F8AC /* Inject.swift */; };
+		CCCCF3862BF6D3D80060F8AC /* CommonCoreNetwork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */; };
+		CCCCF3882BF6D5630060F8AC /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3872BF6D5630060F8AC /* HttpClient.swift */; };
+		CCCCF38A2BF6D5A20060F8AC /* NetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF3892BF6D5A20060F8AC /* NetworkModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CC449CE02BF6CAEA00DBAD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC449CEB2BF6CFC100DBAD6F /* CommonCoreDi.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonCoreDi.podspec; sourceTree = "<group>"; };
 		CCCCF3812BF6D0A60060F8AC /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonCoreNetwork.podspec; sourceTree = "<group>"; };
+		CCCCF3872BF6D5630060F8AC /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		CCCCF3892BF6D5A20060F8AC /* NetworkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		CC449CE62BF6CF1500DBAD6F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CCCCF3852BF6D3D80060F8AC /* CommonCoreNetwork */,
 				CC449CE72BF6CF2C00DBAD6F /* CommonCoreDi */,
 			);
 			path = Modules;
@@ -113,6 +120,24 @@
 				CCCCF3812BF6D0A60060F8AC /* Inject.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		CCCCF3832BF6D3D80060F8AC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3872BF6D5630060F8AC /* HttpClient.swift */,
+				CCCCF3892BF6D5A20060F8AC /* NetworkModule.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CCCCF3852BF6D3D80060F8AC /* CommonCoreNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF3832BF6D3D80060F8AC /* Sources */,
+				CCCCF3842BF6D3D80060F8AC /* CommonCoreNetwork.podspec */,
+			);
+			path = CommonCoreNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +202,7 @@
 			files = (
 				CC449CDC2BF6CAEA00DBAD6F /* Assets.xcassets in Resources */,
 				CC449CEC2BF6CFC100DBAD6F /* CommonCoreDi.podspec in Resources */,
+				CCCCF3862BF6D3D80060F8AC /* CommonCoreNetwork.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCCF3882BF6D5630060F8AC /* HttpClient.swift in Sources */,
 				CCCCF3822BF6D0A60060F8AC /* Inject.swift in Sources */,
+				CCCCF38A2BF6D5A20060F8AC /* NetworkModule.swift in Sources */,
 				CC449CD72BF6CAE800DBAD6F /* ViewController.swift in Sources */,
 				CC449CD32BF6CAE800DBAD6F /* AppDelegate.swift in Sources */,
 				CC449CD52BF6CAE800DBAD6F /* SceneDelegate.swift in Sources */,

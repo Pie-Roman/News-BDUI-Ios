@@ -19,4 +19,8 @@ public class Inject {
     func instance<T>() -> T {
         return container.resolve(T.self)!
     }
+    
+    func provide<T>(_ factory: @escaping (any Resolver) -> T) {
+        container.register(T.self, factory: factory)
+    }
 }
