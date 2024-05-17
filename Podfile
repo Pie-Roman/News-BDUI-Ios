@@ -13,4 +13,6 @@ target 'News' do
   
   local_pod 'CommonCoreDi'
   local_pod 'CommonCoreNetwork'
+  
+  local_pod 'BaseUiKit'
 end
