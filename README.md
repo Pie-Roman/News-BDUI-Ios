@@ -8,7 +8,7 @@ News-BDUI-iOS — это iOS-приложение для просмотра но
 
 ## Связь с другими проектами
 
-Данный проект является частью исследования по использованию Backend-driven UI в мобильной разработке и связан со следующими проектами:
+Данный проект является частью [исследования](https://www.hse.ru/ba/se/students/diplomas/924182125) по использованию Backend-driven UI совместно с Kotlin Multiplatform в мобильной разработке и связан со следующими проектами:
 
 - [News-BDUI-Android](https://github.com/Pie-Roman/News-BDUI-Android): Android-версия приложения с использованием BDUI
 - [News-BDUI-KMP](https://github.com/Pie-Roman/News-BDUI-KMP): Версия приложения с использованием Kotlin Multiplatform и BDUI
